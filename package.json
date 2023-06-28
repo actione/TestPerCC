@@ -1,0 +1,23 @@
+{
+  "name": "testpercc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "g++ main.cpp test.cpp -o test",
+    "test": "./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/actione/TestPerCC.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/actione/TestPerCC/issues"
+  },
+  "homepage": "https://github.com/actione/TestPerCC#readme"
+}
