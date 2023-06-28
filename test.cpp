@@ -23,6 +23,6 @@ void quickSort(int* arr, int left, int right)
 
 void testNeg()
 {
-    int a[] = {1}
+    int a[] = {1};
     quickSort(a, -1, -1);
 }
