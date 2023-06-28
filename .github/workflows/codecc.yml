@@ -27,7 +27,7 @@ jobs:
         run: sudo apt-get install lcov
 
       - name: Run coverage
-        run: gcov test-main.gcno test-test.gcno && lcov -d . -o ./ref-lcov.info -c
+        run: lcov -d . -o ./ref-lcov.info -c
 
       - name: Upload code coverage for ref branch
         uses: actions/upload-artifact@v3
