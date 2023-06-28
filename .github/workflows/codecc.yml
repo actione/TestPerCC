@@ -30,7 +30,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: ref-lcov.info
-          path: ./coverage/lcov.info
+          path: ./lcov.info
 
   checks:
     runs-on: ubuntu-latest
