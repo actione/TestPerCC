@@ -19,13 +19,13 @@ jobs:
 
       - name: Run build
         run: yarn build
-        
+
       - name: Run test
         run: yarn test
-        
+
       - name: set up environment
         run: sudo apt-get install lcov
-        
+
       - name: Run coverage
         run: gcov test-main.gcno test-test.gcno && lcov -d . -o ./ref-lcov.info -c
 
@@ -53,16 +53,15 @@ jobs:
       - name: Install dependencies
         run: yarn
 
-
       - name: Run build
         run: yarn build
-        
+
       - name: Run test
         run: yarn test
-        
+
       - name: set up environment
         run: sudo apt-get install lcov
-        
+
       - name: Run coverage
         run: yarn coverage
 
