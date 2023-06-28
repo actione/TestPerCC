@@ -25,4 +25,5 @@ void testNeg()
 {
     int a[] = {1};
     quickSort(a, -1, -1);
+    quickSort(nullptr, 0, 1);
 }
