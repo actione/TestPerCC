@@ -17,7 +17,13 @@ jobs:
       - name: Install dependencies
         run: yarn
 
-      - name: Run test coverage
+      - name: Run build
+        run: yarn build
+        
+      - name: Run test
+        run: yarn test
+        
+      - name: Run coverage
         run: yarn coverage
 
       - name: Upload code coverage for ref branch
