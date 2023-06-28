@@ -25,4 +25,11 @@ void testNeg()
 {
     int a[] = {1};
     quickSort(a, -1, -1);
+    quickSort(nullptr, 0, 1);
+}
+
+void newFunction()
+{
+    int a[] = {1, 2, 1};
+    quickSort(a, 0, 2);
 }
