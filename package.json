@@ -9,7 +9,7 @@
   "scripts": {
     "build": "g++ main.cpp test.cpp -fprofile-arcs -ftest-coverage -o test",
     "test": "./test",
-    "coverage":"gcov test-main.gcno test-test.gcno && lcov -d . -o lcov.info -c"
+    "coverage":"lcov -d . -o lcov.info -c"
   },
   "repository": {
     "type": "git",
