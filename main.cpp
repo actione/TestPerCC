@@ -10,5 +10,6 @@ int main()
         std::cout << arr[i] << " ";
     }
     std::cout << std::endl;
+    testNeg();
     return 0;
 }
